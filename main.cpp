@@ -31,7 +31,7 @@
  *                Makefile, then type 'make'
  *
  *                To compile without make: 
- *                'g++ enigma.cpp -o Enigma -Wall -Wextra -O2 -std=c++11'
+ *                'g++ main.cpp enigma.cpp Rotor.cpp -o enigma -Wall -Wextra -O2 -std=c++11'
  *              
  *
  */
