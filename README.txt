@@ -30,7 +30,7 @@ Notes        : Compiled with g++ (Debian 5.3.1-8) (stretch-sid)
               Makefile, then type 'make'
 
               To compile without make: 
-              'g++ enigma.cpp -o Enigma -Wall -Wextra -O2 -std=c++11'
+              'g++ main.cpp enigma.cpp Rotor.cpp -o Enigma -Wall -Wextra -O2 -std=c++11'
             
 
 
