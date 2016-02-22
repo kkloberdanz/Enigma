@@ -1,7 +1,20 @@
 Programmer    : Kyle Kloberdanz
 Date Created  : 19 Feb 2015
 Description   : A simplified implementation of the enigma cipher.
-               Uses 1 rotor instead of 3
+                Uses 1 rotor instead of 3
+
+                This cipher uses a rotor that contains every letter
+                of the basic latin alphabet. The order of the letters
+                is then randomized, and the text is then encrypted with
+                this randomized rotor. The rotor shifts after each 
+                letter is encrypted.
+
+                The orientation I used for the rotor is: 
+
+                cehtkzjmipgrawbnuldoqvfsyx
+
+                To decrypt, copy and paste this key exactly how it appears
+                above when prompted
 
 File          : README.txt
 
